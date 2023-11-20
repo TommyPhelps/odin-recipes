@@ -12,8 +12,29 @@ body {
     padding-bottom: 2%;
 }
 
+h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: solid #040403 5px;
+    border-radius: 8%;
+}
+
 a {
-    color: #2B2D42;
+    color: #4F5D2F;
+    text-decoration: none;
 }
 
 a:hover {
