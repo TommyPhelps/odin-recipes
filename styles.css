@@ -1,42 +1,40 @@
 * {
-    background-color: #E5D4CE;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    color: #040403;
     font-size: 14pt;
-    padding-top: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 2%;
+    margin: 3% auto;
+    background-color: #ffffff;
+    width: 800px;
 }
 
-h1 {
+.title {
     font-size: 30pt;
     text-align: center;
+    background-color: #4A6670;
+    color: #ffffff;
+    padding: 3% 0;
 }
 
 h2 {
     font-size: 20pt;
 }
 
-.img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 img {
     border: solid #040403 5px;
     border-radius: 8%;
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
-    color: #4F5D2F;
+    color: #DB2B39; 
     text-decoration: none;
-}
-
-a:hover {
-    color: #CD4631;
 }
